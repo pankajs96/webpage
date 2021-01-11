@@ -10,7 +10,7 @@ body{
     left : 5%;
     transform: translate(-50,-50);
     background: grey;
-    height : 30px;
+    height : 20px;
     border-radius: 40px;
     padding: 10px;
 }
@@ -27,10 +27,8 @@ body{
     line-height: 30px;
     width: 240px;
 
-
-
 }
-.Search_Facebook{
-    background:White;
-    color:white;
+.pic{
+	width : 500px
+	clip-path:circle();
 }
