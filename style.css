@@ -31,8 +31,37 @@ body{
 .pic{
 	
 	width : 500px;
-	margin : auto ;
+	margin : auto;
+	
 }
 .pic img {
+	border : 5px solid black ;
+border-radius : 50% ;}
+.list ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.list li{
+    background:gray;
+    width :170px;
+    border:1px solid #ffffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float:left;
+    color:cornsilk;
+    font-size: 14px;
+    position:relative;
+    font-family: big john;
+}
+.list ul li:hover{
+	background: crimson;
+}
+.list ul ul {
+	display: none;
 	
-	border-radius : 50% ;
+}
+.list ul li:hover> ul{
+	display:block;
+	
+}
