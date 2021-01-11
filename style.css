@@ -29,6 +29,10 @@ body{
 
 }
 .pic{
-	width : 500px
-	clip-path:circle();
+	
+	width : 500px;
+	margin : auto ;
 }
+.pic img {
+	
+	border-radius : 50% ;
